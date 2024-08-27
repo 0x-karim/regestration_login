@@ -1,0 +1,48 @@
+::placeholder {
+    color: white !important;
+}
+
+.login {
+    background-color: #7251b5;
+}
+
+.login .container .log-form {
+    background-color: #7251b5;
+    width: 65%;
+    color: #ff499e;
+    box-shadow: 10px 10px 25px #6247aa,
+               -10px -10px 25px #815ac0;
+}
+
+.login .container .log-form .form-control {
+    background-color: inherit;
+    border: 1.5px solid white;
+    color: white;
+}
+
+.login .container .log-form .form-control:focus {
+    box-shadow: none;
+    border-color: #d264b6;
+    color: #d264b6;
+    font-weight: 500;
+}
+
+.login .container .log-form button {
+    color: #ff499e;
+    border: 1.5px solid #ff499e;
+    transition: all 0.3s;
+}
+
+.login .container .log-form button:hover {
+    background-color: #ff499e;
+    color: white;
+}
+
+.login .container .log-form p a {
+    color: #ff499e;
+}
+
+.login .container .log-form p a:hover {
+    text-decoration: underline !important;
+}
+

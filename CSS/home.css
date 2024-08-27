@@ -1,0 +1,40 @@
+.home {
+    height: 100vh;
+    background-color: #7251b5;
+}
+
+.home nav {
+    background-color: #7251b5;
+    box-shadow: 0px 15px 25px #6247aa;
+}
+
+.home .container h2 , .home nav h1 {
+    color: #ff499e;
+}
+
+.home nav .container button {
+    color: #ff499e;
+    width: 100px;
+    border: 1.5px solid #ff499e;
+    transition: all 0.3s;
+}
+
+.home nav .container button:hover {
+    background-color: #ff499e;
+    color: white;
+}
+
+.home header {
+    height: 90vh;
+}
+
+.home header .container {
+    background-color: #7251b5;
+    box-shadow: 10px 10px 25px #6247aa,
+               -10px -10px 25px #815ac0;
+}
+
+.home header .container:hover {
+    box-shadow: 10px 10px 25px #6247aa inset,
+               -10px -10px 25px #815ac0 inset;
+}
